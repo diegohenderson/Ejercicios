@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 1", "Ejercicio 1.csproj", "{22CDA9C8-FEAD-4312-A1E0-5B7D233E5607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings", "..\strings\strings.csproj", "{1A8FDAA8-7A72-4C39-8E60-197A6E4240BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listas", "..\tuples\listas.csproj", "{551FB911-A095-45CB-B38F-00C9ACC4DD1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22CDA9C8-FEAD-4312-A1E0-5B7D233E5607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CDA9C8-FEAD-4312-A1E0-5B7D233E5607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CDA9C8-FEAD-4312-A1E0-5B7D233E5607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CDA9C8-FEAD-4312-A1E0-5B7D233E5607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8FDAA8-7A72-4C39-8E60-197A6E4240BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8FDAA8-7A72-4C39-8E60-197A6E4240BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8FDAA8-7A72-4C39-8E60-197A6E4240BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8FDAA8-7A72-4C39-8E60-197A6E4240BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551FB911-A095-45CB-B38F-00C9ACC4DD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551FB911-A095-45CB-B38F-00C9ACC4DD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551FB911-A095-45CB-B38F-00C9ACC4DD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551FB911-A095-45CB-B38F-00C9ACC4DD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D8BA457-7634-4682-94F8-F433ACBBB3EE}
+	EndGlobalSection
+EndGlobal
