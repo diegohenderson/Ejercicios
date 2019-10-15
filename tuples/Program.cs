@@ -25,10 +25,11 @@ namespace tuples
             //}
             //Console.WriteLine(suma);
             #endregion
-            //List<int> listanumeros = new List<int>();
-            //listanumeros.Add(15);
-            //listanumeros.Add(22);
-            //listanumeros.Add(33);
+            List<int> listanumeros = new List<int>();
+            listanumeros.Add(15);
+            listanumeros.Add(22);
+            listanumeros.Add(33);
+            //Console.WriteLine(listanumeros.Count);
             #region muestra y algunos metodos
             //listanumeros.Insert(0, 99);
             //listanumeros.Reverse();
@@ -60,7 +61,21 @@ namespace tuples
             //    Console.WriteLine("clave " + item.Key + ":" + item.Value);
             //}
             #endregion
-
+            List<List<string>> myList = new List<List<string>>();
+            myList.Add(new List<string> { "a", "b" });
+            myList.Add(new List<string> { "c", "d", "e" });
+            myList.Add(new List<string> { "qwerty", "asdf", "zxcv" });
+            myList.Add(new List<string> { "a", "b" });
+            myList.Insert(0,new List<string> { "asd" });
+            
+            // To iterate over it.
+            foreach (List<string> subList in myList)
+            {
+                foreach (string item in subList)
+                {
+                    Console.WriteLine(item);
+                }
+            }
             Console.ReadKey();
         }
 
